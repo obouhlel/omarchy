@@ -1,0 +1,28 @@
+# Nord theme colors for Powerlevel10k
+
+# Main prompt colors
+typeset -g POWERLEVEL9K_PROMPT_CHAR_OK_{VIINS,VICMD,VIVIS,VIOWR}_FOREGROUND=143    # green
+typeset -g POWERLEVEL9K_PROMPT_CHAR_ERROR_{VIINS,VICMD,VIVIS,VIOWR}_FOREGROUND=131 # red
+
+# Directory colors
+typeset -g POWERLEVEL9K_DIR_FOREGROUND=109            # blue
+typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND=139  # purple
+typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=116     # cyan
+
+# VCS (git) colors
+typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND=143      # green
+typeset -g POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=143  # green
+typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=222   # yellow
+
+# Status colors
+typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND=143               # green
+typeset -g POWERLEVEL9K_STATUS_OK_PIPE_FOREGROUND=143          # green
+typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND=131            # red
+typeset -g POWERLEVEL9K_STATUS_ERROR_SIGNAL_FOREGROUND=131     # red
+typeset -g POWERLEVEL9K_STATUS_ERROR_PIPE_FOREGROUND=131       # red
+
+# Command execution time
+typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND=222  # yellow
+
+# Background jobs
+typeset -g POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND=143         # green
